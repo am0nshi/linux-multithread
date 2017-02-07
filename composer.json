@@ -1,0 +1,15 @@
+{
+  "name": "am0nshi/linux-multithread",
+  "license": "proprietary",
+  "type": "project",
+  "require": {
+    "ovm/multicast": "dev-master",
+    "ovm/unicast": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://satis.office.dev"
+    }
+  ]
+}

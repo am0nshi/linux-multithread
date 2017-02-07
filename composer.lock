@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "ab5014e6d6ad8903d648493e3799e926",
+    "packages": [
+        {
+            "name": "ovm/multicast",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.office.dev:7999/ob/multicast.git",
+                "reference": "bf00ea426f47c7b83566a97614cffb74ea580307"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.office.dev/dist/ovm-multicast-dev-master-17ca34.zip",
+                "reference": "bf00ea426f47c7b83566a97614cffb74ea580307",
+                "shasum": "236f6bd531769ee8e9594ce380a131433e98641b"
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OVM\\Multicast\\": "/src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maksym Churkin",
+                    "email": "maksymc@migfin.com"
+                },
+                {
+                    "name": "Nikita Galaiev",
+                    "email": "nikitag@migfin.com"
+                },
+                {
+                    "name": "Konstantin Linnik",
+                    "email": "konstantinl@migfin.com"
+                },
+                {
+                    "name": "Evgeniy Ivashko",
+                    "email": "evgenyi@migfin.com"
+                }
+            ],
+            "description": "Multicast lib for Overmind project",
+            "keywords": [
+                "Overmind multicast"
+            ],
+            "time": "2016-12-08 07:56:48"
+        },
+        {
+            "name": "ovm/unicast",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "ssh://git@bitbucket.office.dev:7999/ob/unicast.git",
+                "reference": "df4663e9e8d7a4aeaa0820654815ff0aab788ba9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.office.dev/dist/ovm-unicast-dev-master-cf4cc0.zip",
+                "reference": "df4663e9e8d7a4aeaa0820654815ff0aab788ba9",
+                "shasum": "aac547988d7fb29c7239f87925fb508951937159"
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "OVM\\Unicast\\": "/src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maksym Churkin",
+                    "email": "maksymc@migfin.com"
+                },
+                {
+                    "name": "Nikita Galaiev",
+                    "email": "nikitag@migfin.com"
+                },
+                {
+                    "name": "Konstantin Linnik",
+                    "email": "konstantinl@migfin.com"
+                }
+            ],
+            "description": "Unicast lib for Overmind project",
+            "keywords": [
+                "Overmind unicast (TCP)"
+            ],
+            "time": "2016-11-29 08:48:48"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ovm/multicast": 20,
+        "ovm/unicast": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
